@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f8fa;
+}
+#hero-section{
+    color: white;
+    background-color: #1a2434;
+    text-align: center;
+    padding: 60px;
+    
+}
+h1 {
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+}
+p{
+    text-align: center;
+}
+.hero-sub-h3{
+    margin-top: 10px;
+    font-size: 30px;
+}
+#about-section{
+    padding: 40px;
+    background-color: #ffff;
+    margin: 60px 200px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.about-section-h2{
+    text-align: center;
+    font-size: 30px;
+}
+#education-section{
+    padding: 40px;
+    background-color: #D5E8F0;
+    margin: 60px 200px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    border: 2px solid #D5E8F0;
+    border-radius: 10px;
+}
+.bullet-points{
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin: 4px 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.bullet-points-1{
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#skills-section{
+    padding: 40px;
+    background-color: #fef0bf;
+    margin: 60px 200px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    border: 2px solid #fef0bf;
+    border-radius: 10px;
+
+}
+#projects-section{
+    padding: 40px;
+    background-color: #e5e0f7;
+    margin: 60px 200px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    border: 2px solid #e5e0f7;
+    border-radius: 10px;
+}
+#contact-me-section{
+    padding: 40px;
+    background-color: #d7fce2;
+    margin: 60px 200px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    border: 2px solid #d7fce2;
+    border-radius: 10px;
+}
+.footer{
+    background-color:#1a2434 ;
+    text-align: center;
+    color: white;
+    font-family: poppins, sans-serif;
+    padding: 20px;
+}
