@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url('/assets/images/naruto.webp') center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-heading {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.site-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9),
+                 0 0 15px rgba(255, 107, 53, 0.8);
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.site-subtitle {
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-style: italic;
+    line-height: 1;
+    margin-top: 3px;
+}
+
+.left-section{
+    padding: 25px 50px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 4px solid #fff;
+    background: rgba(255, 107, 53, 0.95);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 260px;
+    font-family: 'Comic Sans MS', cursive;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.left-section-2{
+    padding: 25px 50px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 4px solid #fff;
+    background: rgba(255, 107, 53, 0.95);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 260px;
+    font-family: 'Comic Sans MS', cursive;
+    margin-top: 16px;
+    margin-left: 50px;
+}
+.left-section-3{
+    padding: 25px 50px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 4px solid #fff;
+    background: rgba(255, 107, 53, 0.95);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 260px;
+    font-family: 'Comic Sans MS', cursive;
+    margin-top: 16px;
+    margin-left: 50px;
+}
+.right-section-1{
+    padding: 25px 50px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 4px solid #fff;
+    background: rgba(255, 107, 53, 0.95);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 260px;
+    font-family: 'Comic Sans MS', cursive;
+    
+}
+.right-section-2{
+    padding: 25px 50px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 4px solid #fff;
+    background: rgba(255, 107, 53, 0.95);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 260px;
+    font-family: 'Comic Sans MS', cursive;
+   margin-top: 316px;
+}
+.right-section-3{
+    padding: 25px 50px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 4px solid #fff;
+    background: rgba(255, 107, 53, 0.95);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 260px;
+    font-family: 'Comic Sans MS', cursive;
+   margin-top: 316px;
+}
+
+.right-section{
+     margin-top: -300px;
+     margin-left: 1140px;
+}
+
+.about-section {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    backdrop-filter: blur(5px);
+}
+
+.about-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6b35;
+    font-family: 'Comic Sans MS', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.about-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.credits-section {
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+}
+
+.credits-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    padding: 12px 20px;
+    background: rgba(255, 107, 53, 0.9);
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
