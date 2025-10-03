@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+#navbar {
+    position: relative;
+    height: 50px;
+    
+}
+
+#navbar a {
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+    margin: 0px 60px;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-1 {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.nav-2 {
+    position: absolute;
+    left: 100px;
+    top: 15px;
+}
+
+.nav-3 {
+    position: absolute;
+    left: 200px;
+    top: 15px;
+}
+
+#main-heading-nav {
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translateX(-50%);
+}
+
+.nav-4 {
+    position: absolute;
+    right: 180px;
+    top: 15px;
+}
+
+.nav-5 {
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+
+.nav-6 {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.main-heading{
+    margin-top: 10px;
+    position: relative;
+    font-size: 390px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400px;
+    margin-left: 20px;
+}
+.img-1{
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    top:550px;
+    right: 750px;
+
+}
+.img-2{
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    top:700px;
+    right: 600px;
+
+}
+.img-3{
+    object-fit: contain;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    top:410px;
+    right: 290px;
+
+}
+.Product-details{
+    margin-left: 30px;
+    font-family: poppins;
+    
+}
+.Product-details>h2{
+   font-size: 20px;
+}
+.Product-details > p {
+    max-width: 300px; 
+    line-height: 1.6;
+}
+.material{
+    margin-top: 20px;
+     margin-left: 30px;
+    font-family: poppins;
+}
+.material>h2{
+    font-size: 20px;
+}
+.Bottom{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: poppins;
+    position: relative;
+}
+.Bottom>h2{
+    position: absolute;
+    right: 90px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.Bottom>h1{
+
+    font-family: "Baskervville", serif;
+    position: absolute;
+    font-size: 40px;
+}
+.Bottom>h2 .underline{
+    text-decoration: underline;
+}
